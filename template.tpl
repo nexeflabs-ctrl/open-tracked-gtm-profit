@@ -15,6 +15,11 @@ ___INFO___
   "securityGroups": [],
   "displayName": "Open Tracked Profit",
   "description": "The profit of an order: for each product in the event, price times quantity times its margin from your Open Tracked POAS Data Feed. Use it as the conversion value (profit on ad spend). Products without a margin add nothing.",
+  "categories": [
+    "CONVERSIONS",
+    "ADVERTISING",
+    "ANALYTICS"
+  ],
   "containerContexts": [
     "SERVER"
   ],
