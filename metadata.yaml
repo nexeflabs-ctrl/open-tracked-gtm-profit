@@ -1,6 +1,8 @@
 homepage: "https://opentracked.io"
 documentation: "https://docs.opentracked.io/google-tag-manager"
 versions:
-  # Each version is the commit that holds that version of template.tpl.
+  # Each version is the commit that holds that version of template.tpl. Newest first.
+  - sha: 5c35031a5a644de35953f6eda01f8b9a9e496150
+    changeNotes: Added the gallery categories.
   - sha: 8ebd209ac95a09be515a91b9f1bbc118d02249c8
     changeNotes: First release. The profit of an order: for each product in the event, price times quantity times its margin from your Open Tracked POAS Data Feed. Use it as the conversion value (profit on ad spend). Products without a margin add nothing.
